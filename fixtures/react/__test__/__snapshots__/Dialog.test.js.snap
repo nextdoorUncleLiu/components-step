@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test container 1`] = `
+<div>
+  <div>
+    mid1 
+    true
+  </div>
+  <div>
+    <label>
+      姓名
+    </label>
+    <input />
+  </div>
+  <div>
+    <label>
+      年龄
+    </label>
+    <input />
+  </div>
+  <div>
+    mid2 
+    false
+  </div>
+  <div>
+    <button>
+      确认
+    </button>
+  </div>
+</div>
+`;

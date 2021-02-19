@@ -1,0 +1,12 @@
+coverage
+fixtures
+node_modules
+src
+.gitignore
+babel.config.js
+jest.config.js
+package-lock.json
+webpack.config.js
+yarn.lock
+CHANGELOG.md
+TODOLIST.md
