@@ -1,6 +1,8 @@
 module.exports = {
-  entry: './index.js',
+  mode: 'development',
+  entry: './src/main.js',
   output: {
-    chunkFilename: '[name].js'
+    libraryTarget: 'umd',
+    globalObject: 'this',
   }
 }

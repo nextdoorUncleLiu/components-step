@@ -2,7 +2,25 @@
 
 ## 安装
 
-当前版本比较简单，只提供学习过程，后期维护后，可提供相应功能 api
+npm
+
+```js
+npm install --save components-step
+```
+
+yarn
+
+```js
+yarn add components-step
+```
+## 使用方式
+
+```js
+import ComponentsStep from 'components-step'
+
+ComponentsStep([mid1,mid2])(container, attr)
+```
+
 ## 简介
 
 在多年的开发经验过程中，目前存在的已知的开发模式并不能满足我的所有需求，`组件化开发` 和 `代码的复用性` 可以满足我大部分工作的模式，但是遇到很多繁琐而又复杂的需求，它们并不能为我提供我想达到的预期效果：

@@ -1,8 +1,8 @@
 {
   "name": "components-step",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "组件步骤化",
-  "main": "index.js",
+  "main": "./dist/main.js",
   "scripts": {
     "test": "jest --coverage --updateSnapshot"
   },
@@ -21,10 +21,12 @@
     "webpack-dev-server": "^3.11.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.16",
-    "@babel/preset-env": "^7.12.16",
+    "@babel/core": "^7.12.17",
+    "@babel/plugin-transform-react-jsx": "^7.12.17",
+    "@babel/preset-env": "^7.12.17",
     "@babel/preset-react": "^7.12.13",
     "babel-jest": "^26.6.3",
+    "babel-loader": "^8.2.2",
     "jest": "^26.6.3",
     "react": "^17.0.1",
     "react-test-renderer": "^17.0.1"

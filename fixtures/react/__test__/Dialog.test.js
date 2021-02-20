@@ -1,11 +1,10 @@
 import React, { Component } from 'react'
 import renderer from 'react-test-renderer'
 import Dialog from '../Dialog'
-import ComponentsStep from '../../../src/main'
-
+import ComponentsStep from '../../../dist/main.js'
+console.log(ComponentsStep)
 function Mid1(props) {
   return () => {
-    console.log(this)
     return (
       <div>mid1 {props ? 'true' : 'false'}</div>
     )
